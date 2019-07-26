@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "System Info",
+  "description": "Adds a toolbar button that displays information about the device's CPU and RAM.",
+  "version": "1.0.6",
+  "icons": { 
+		"16": "media/icon16.png",
+        "48": "media/icon48.png",
+        "128": "media/icon128.png" 
+		},
+  "permissions": [
+    "system.cpu",
+	"system.memory"
+  ],
+  "browser_action": {
+    "default_icon": "media/icon48.png",
+    "default_popup": "popup.html"
+  }
+}

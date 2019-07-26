@@ -1,0 +1,33 @@
+body {
+	min-width: 500px;
+	overflow-x: hidden;
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1em;
+}
+
+img {
+	margin: 5px;
+	border: 2px solid black;
+	vertical-align: middle;
+	width: 75px;
+	height: 75px;
+}
+  
+table {
+	width: 500px;		
+}
+		  
+th {
+	text-align:left;
+	background-color: #6094DB;
+	color: #fff;
+}
+
+ 
+img { border: none; width:32px; height:32px; }
+
+#cpu_head { -webkit-border-radius: 3px; background-color: #6094DB; }
+#ram_head { -webkit-border-radius: 3px; background-color: #6094DB; }
+
+#cpu { padding: 5px; }
+#ram { padding: 5px; }	 
